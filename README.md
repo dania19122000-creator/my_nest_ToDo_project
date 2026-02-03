@@ -96,3 +96,63 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+
+
+# Task Management REST API
+
+This is a **backend learning project** built with **Node.js and NestJS** to practice
+building a real-world REST API with authentication, database integration, and Docker.
+
+The project focuses on backend fundamentals and common patterns used in modern web applications.
+
+---
+
+## Features
+
+- RESTful API
+- JWT authentication using Passport.js
+- User-based authorization
+- CRUD operations
+- Task filtering and search
+- PostgreSQL database
+- TypeORM ORM
+- Docker & Docker Compose
+- pgAdmin for database management
+
+---
+
+## Tech Stack
+
+- Node.js
+- NestJS
+- TypeScript
+- PostgreSQL
+- TypeORM
+- JWT / Passport.js
+- Docker & Docker Compose
+- pgAdmin
+
+---
+
+## API Functionality
+
+### Authentication
+- User registration
+- User login
+- JWT token generation
+- Protected routes using JWT Guard
+
+### Tasks
+- Create task
+- Get user tasks
+- Filter tasks by status
+- Search tasks by title or description
+- Update task
+- Delete task
+- User-based access control (users can access only their own tasks)
+
+
+
+
